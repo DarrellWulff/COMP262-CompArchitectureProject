@@ -48,7 +48,7 @@ It is a 10x10 table since there are 10 cards to choose from either the player or
 
 From here a value will be added to the overall next action with some other action values being added to give the player's some small emergent behaviors. Things like if they have been winning or losing previous rounds will be added into their next action value which will inform their overall choice to hit or stay. 
 
-Once this system is set up it is pretty flexible to add new values to help decide what the AI's next action will be, as all input data can be represented as a value to add and the next action can be decided by looking at the range of what final action value added up to.
+Once this system is set up it is pretty flexible to add new values to help decide what the AI's next action will be, as all input data can be represented as a value to add and the next action can be decided by looking at the range of what the final action value added up to.
 
 The idea of the Utility AI was based off of this article https://www.gamasutra.com/blogs/JakobRasmussen/20160427/271188/Are_Behavior_Trees_a_Thing_of_the_Past.php where you can find out more. I still think behavior trees are great and fun, but I like to experiment with different possibilities. I'm interested in hooking up this kind of AI pattern with machine learning/pattern recognition.
 
